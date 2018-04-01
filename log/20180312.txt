@@ -1,0 +1,321 @@
+-----------------------------------------
+2018/03/12 15:32:08
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 15:32:11
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 15:32:31
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 15:32:31
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 15:38:50
+select * from articles where art_id = 4
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 15:38:50
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 4
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:11:13
+select * from articles where art_id = 4
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:11:13
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 4
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:11:25
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:11:25
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:15:38
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:15:38
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:15:38
+insert into comments (nick,email,content,art_id,pubtime) values ('翻书等缘','111111111@qq.com','有兴趣，能读懂，且受益','3','1520846138')
+Unknown column 'email' in 'field list'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:23:17
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:23:17
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:23:17
+insert into comments (nick,email,content,art_id,pubtime) values ('翻书等缘','111111111@qq.com','有兴趣，能读懂，且受益','3','1520846597')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:33:48
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:33:48
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:33:51
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:33:51
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:39
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:39
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:39
+insert into comments (nick,email,content,art_id,pubtime) values ('翻书等缘','111111111@qq.com','房子是用来住的','3','1520847279')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:39
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:39
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:47
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:47
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:47
+insert into comments (nick,email,content,art_id,pubtime) values ('','','','3','1520847287')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:47
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:34:47
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:45:02
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:45:02
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:45:02
+select * from comments where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:12
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:12
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:12
+select * from comments where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:16
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:16
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:16
+select * from comments where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:17
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:17
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:17
+select * from comments where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:30
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:30
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:46:30
+select * from comments where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:53:00
+select * from articles where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:53:00
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 17:53:00
+select * from comments where art_id = 3
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 22:59:47
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:00:31
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:00:31
+insert into articles (title,cat_id,content,pubtime) values ('剑来','11','剑来，剑来，一剑东来。','1520866831')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:01:56
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:01:56
+insert into articles (title,cat_id,content,pubtime) values ('剑来','11','剑来，剑来，一剑东来。','1520866916')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:03:01
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:03:01
+insert into articles (title,cat_id,content,pubtime) values ('剑来','11','剑来，剑来，一剑东来。','1520866981')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:03:08
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:03:24
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:03:24
+insert into articles (title,cat_id,content,pubtime) values ('剑来','11','剑来，剑来，一剑东来。','1520867004')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:05:40
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:05:40
+insert into articles (title,cat_id,content,pubtime) values ('剑来','11','剑来，剑来，一剑东来。','1520867140')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:11:40
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:11:51
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:12:18
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/12 23:12:18
+insert into articles (title,cat_id,content,pubtime) values ('ceshi','10','faslvaslsmvlkasvm','1520867538')
+-----------------------------------------
+

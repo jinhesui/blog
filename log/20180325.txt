@@ -1,0 +1,35 @@
+-----------------------------------------
+2018/03/25 00:07:13
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/25 00:07:13
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/25 00:07:13
+select art_id,title,content,pubtime,comm,catname,thumb from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/25 00:07:45
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/25 00:08:08
+select * from users where name = 'admin' 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/25 00:08:08
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/25 00:08:13
+select * from categories
+-----------------------------------------
+

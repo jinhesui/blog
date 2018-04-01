@@ -1,0 +1,15 @@
+-----------------------------------------
+2018/03/28 14:54:39
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/28 14:54:39
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/28 14:54:39
+select art_id,title,content,pubtime,comm,catname,arttag,thumb from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+

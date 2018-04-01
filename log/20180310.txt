@@ -1,0 +1,21 @@
+-----------------------------------------
+2018/03/10 23:49:18
+select count(*) from categories where catname = '测试'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/10 23:49:54
+select count(*) from categories where catname = '美食'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/10 23:49:54
+insert into categories (catname) values ('美食')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/10 23:51:34
+select count(*) from categories where catname = '美食
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''美食' at line 1
+-----------------------------------------
+

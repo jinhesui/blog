@@ -1,0 +1,1249 @@
+-----------------------------------------
+2018/03/20 11:14:25
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 11:14:25
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 11:19:41
+select * from articles where art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 11:19:41
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 11:19:41
+select * from comments where art_id = 6
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:18:57
+select * from articles where art_id = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:18:57
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:18:57
+select * from comments where art_id = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:18:57
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:18:57
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:19:17
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:19:35
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:19:42
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:21:04
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:21:04
+insert into articles (title,cat_id,content,pubtime) values ('Laravel实战','10','Laravel实战项目，Laravel项目开发规范','1521530464')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:21:04
+insert into tags (art_id ,tag) values (12,'php') ,(12,'linux') ,(12,'laravel') 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:21:07
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:51:43
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:51:43
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:51:53
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:51:53
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 15:51:53
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:08:15
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:10:09
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:10:09
+insert into articles (title,cat_id,content,pubtime,arttag) values ('两会闭幕！','9','两会闭幕！你的生活将迎来这些改变','1521533409','php,linux,laravel')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:10:09
+insert into tags (art_id ,tag) values (13,'php') ,(13,'linux') ,(13,'laravel') 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:15:09
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:15:27
+select * from articles where  art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:15:27
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:15:27
+select title,content,cat_id,arttag from articles where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:24:28
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:24:28
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:24:36
+select * from articles where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:24:36
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:24:36
+select * from comments where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+select * from articles where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+select * from comments where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+insert into comments (nick,email,content,art_id,pubtime) values ('人民日报','111111111@qq.com','15个小目标','13','1521534311')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+update art set comm=comm+1 where art_id=13
+Table 'butterfly.art' doesn't exist
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+select * from articles where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:25:11
+select * from comments where art_id = 13
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:27:50
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:27:50
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:27:50
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+insert into comments (nick,email,content,art_id,pubtime) values ('新华社','111111111@qq.com','国内生产总值','12','1521534509')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+update articles set comm=comm+1 where art_id=12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:28:29
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:43:58
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:43:58
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:45:12
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:45:12
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:25
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:25
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:27
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:27
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:28
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:28
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:29
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:30
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:46:30
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:47:45
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:47:45
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:48:24
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:49:31
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:49:31
+insert into articles (title,cat_id,content,pubtime,arttag) values ('容不得半点懈怠！','9','习近平今年两会这样提醒领导干部','1521535771','php,linux,laravel')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:49:31
+insert into tags (art_id ,tag) values (14,'php') ,(14,'linux') ,(14,'laravel') 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:49:31
+update categories set num=num+1 where cat_id=9
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:49:39
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 16:49:39
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:19:06
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:19:06
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:22:09
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:22:09
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:35
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:37
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:24:37
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:36:29
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:36:29
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:36:29
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+insert into comments (nick,email,content,art_id,pubtime,ip) values ('中科院','111111111@qq.com','超弦宇宙学','12','1521538651','2130706433')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+update articles set comm=comm+1 where art_id=12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 17:37:31
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:27:17
+select * from articles where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:27:17
+select title,content,pubtime,catname,comm from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:27:17
+select * from comments where art_id = 12
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:27:26
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:27:26
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:27:26
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:26
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:26
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:26
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:33
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:33
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:33
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:33
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:33
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:33
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:34
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:35
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:33:36
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:38:31
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:38:31
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:38:31
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:48
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:48
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:48
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:50
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:50
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:50
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 2,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:55
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:55
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:39:55
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 2,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:40:00
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:40:00
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:40:00
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 4,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:40:04
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:40:04
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:40:04
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 6,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:29
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:29
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:29
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 6,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:32
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:32
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:32
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 2,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:38
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:38
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:38
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:43
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:43
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:43
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 2,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:47
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:47
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:47
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 4,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:50
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:50
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:50
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 6,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:54
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:54
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:44:54
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 8,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:45:00
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:45:00
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:45:00
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 2,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:45:05
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:45:05
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:45:05
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 6,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:46:06
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:46:06
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:46:06
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 2,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:46:10
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:46:10
+select count(*) from articles
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:46:10
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:46
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:46
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:46
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:51
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:51
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:51
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 2,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:55
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:55
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:55
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 4,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:58
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:58
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:57:58
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 6,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:06
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:06
+select count(*) from articles where 1  and articles.cat_id = 9 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:06
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  and articles.cat_id = 9  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:10
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:10
+select count(*) from articles where 1  and articles.cat_id = 10 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:10
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  and articles.cat_id = 10  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:15
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:15
+select count(*) from articles where 1  and articles.cat_id = 11 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 18:58:15
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  and articles.cat_id = 11  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/20 21:34:22
+select * from comments
+-----------------------------------------
+

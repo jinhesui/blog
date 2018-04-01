@@ -1,0 +1,323 @@
+-----------------------------------------
+2018/03/24 13:41:22
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 13:41:22
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 13:41:22
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 13:42:59
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 13:42:59
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 13:42:59
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 13:44:54
+select * from comments
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 15:02:59
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 15:05:42
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 15:06:16
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 15:41:55
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 15:41:55
+insert into articles (title,cat_id,content,pic,pubtime,arttag) values ('测试图片','9','测试图片','/upload/2018/03/24/GTZtPE.jpg','1521877315','')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 15:41:55
+update categories set num=num+1 where cat_id=9
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 15:42:00
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 16:02:30
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 16:02:30
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 16:02:30
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 16:03:30
+select * from articles where art_id = 15
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 16:03:30
+select title,content,pubtime,catname,comm,pic from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 15
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 16:03:30
+select * from comments where art_id = 15
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:41:33
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:41:33
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:41:33
+select art_id,title,content,pubtime,comm,catname,thumb from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:42:58
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:42:58
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:42:58
+select art_id,title,content,pubtime,comm,catname,thumb from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:43:00
+select * from articles where art_id = 15
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:43:00
+select title,content,pubtime,catname,comm,thumb from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 15
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:43:00
+select * from comments where art_id = 15
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:43:14
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:43:39
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:43:39
+insert into articles (title,cat_id,content,pic,thumb,pubtime,arttag) values ('再次测试图片','9','图片图片','/upload/2018/03/24/WhMVeC.jpg','/upload/2018/03/24/khKJmf.png','1521891819','')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:43:39
+update categories set num=num+1 where cat_id=9
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:29
+select * from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:29
+insert into articles (title,cat_id,content,pic,thumb,pubtime,arttag) values ('再次测试图片','9','图片图片','/upload/2018/03/24/NKBeFJ.jpg','/upload/2018/03/24/Wup4hU.png','1521891929','')
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:29
+update categories set num=num+1 where cat_id=9
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:36
+select cat_id,catname,num from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:36
+select count(*) from articles where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:36
+select art_id,title,content,pubtime,comm,catname,thumb from articles inner join categories on articles.cat_id = categories.cat_id where 1  order by  art_id desc limit 0,2
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:39
+select * from articles where art_id = 17
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:39
+select title,content,pubtime,catname,comm,thumb from articles inner join categories on articles.cat_id = categories.cat_id where art_id = 17
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 19:45:39
+select * from comments where art_id = 17
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:34:03
+select * from users where name = admin and password = admin
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:34:44
+select * from users where name = admin and password = admin
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:34:52
+select * from users where name = admin and password = admin
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:36:24
+select * from users where name = admin and password = admin
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:43:16
+select * from users where name = admin ' or 1 # and password = admin
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' or 1 # and password = admin' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:52:30
+select * from users where name = 'admin ' or 1 # and password = admin
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:52:30
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:54:31
+select * from users where name = admin and password = admin
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 21:54:42
+select * from users where name = admin and password = admin
+Unknown column 'admin' in 'where clause'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:03:42
+select * from users where name = 'admin' and password = 'admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:03:42
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:04:04
+select * from users where name = 'admin ' or 1' and password = '123456'
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' and password = '123456'' at line 1
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:04:16
+select * from users where name = 'admin ' or 1 #' and password = '123456'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:04:16
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:54:57
+select * from users where name = 'admin' and password = 'admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:55:26
+select * from users where name = 'admin' and password = 'admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 22:58:58
+select * from users where name = 'admin' and password = 'admin'
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 23:01:02
+select * from users where name = 'admin' 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 23:01:02
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 23:35:27
+select * from users where name = 'admin' 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/24 23:35:27
+select art_id,title,pubtime,comm,catname from articles left join categories on articles.cat_id = categories.cat_id
+-----------------------------------------
+

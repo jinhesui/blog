@@ -1,0 +1,20 @@
+-----------------------------------------
+2018/03/13 07:23:05
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/13 07:23:07
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
+-----------------------------------------
+2018/03/13 08:07:20
+select cat_id,catname from categories
+-----------------------------------------
+
+-----------------------------------------
+2018/03/13 08:07:20
+select art_id,title,content,pubtime,comm,catname from articles inner join categories on articles.cat_id = categories.cat_id where 1 
+-----------------------------------------
+
